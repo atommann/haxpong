@@ -1,0 +1,1475 @@
+v 20130925 2
+C 62700 52400 1 0 0 molex-0026013116.sym
+{
+T 62700 54000 5 10 0 0 0 0 1
+device=Connector
+T 63000 54100 5 10 1 1 0 0 1
+refdes=CONN1
+T 62700 52400 5 10 0 0 0 0 1
+manufacturer=Molex
+T 62700 52400 5 10 0 0 0 0 1
+manufacturer_part_number=0039300060
+T 62700 52400 5 10 0 0 0 0 1
+vendor=digikey
+T 62700 52400 5 10 0 0 0 0 1
+vendor_part_number=WM21353-ND
+T 63000 52600 5 10 1 1 0 0 1
+value=ISP
+T 62700 52400 5 10 0 1 0 0 1
+footprint=CON_HDR-254P-3C-2R-6N__Molex_15-91-1062
+}
+N 62000 53800 62700 53800 4
+{
+T 62200 53800 5 10 1 1 0 0 1
+netname=MISO
+}
+N 62000 53400 62700 53400 4
+{
+T 62200 53400 5 10 1 1 0 0 1
+netname=SCK
+}
+N 62000 53000 62700 53000 4
+{
+T 62200 53000 5 10 1 1 0 0 1
+netname=RST
+}
+N 64100 53400 64800 53400 4
+{
+T 64300 53400 5 10 1 1 0 0 1
+netname=MOSI
+}
+C 52300 61200 1 270 0 led-1.sym
+{
+T 52900 60400 5 10 0 0 270 0 1
+device=LED
+T 53100 60400 5 10 0 0 270 0 1
+symversion=0.1
+T 52300 61200 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 52300 61200 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 52300 61200 5 10 0 0 0 0 1
+vendor=digikey
+T 52300 61200 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 52300 61200 5 10 0 0 0 0 1
+footprint=LED0603P
+T 51900 60900 5 10 1 1 0 0 1
+refdes=LED1
+T 51900 60700 5 10 1 1 0 0 1
+value=RED
+}
+C 53600 61200 1 270 0 led-1.sym
+{
+T 54200 60400 5 10 0 0 270 0 1
+device=LED
+T 54400 60400 5 10 0 0 270 0 1
+symversion=0.1
+T 53600 61200 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 53600 61200 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 53600 61200 5 10 0 0 0 0 1
+vendor=digikey
+T 53600 61200 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 53600 61200 5 10 0 0 0 0 1
+footprint=LED0603P
+T 53200 60900 5 10 1 1 0 0 1
+refdes=LED2
+T 53200 60700 5 10 1 1 0 0 1
+value=RED
+}
+C 54900 61200 1 270 0 led-1.sym
+{
+T 55500 60400 5 10 0 0 270 0 1
+device=LED
+T 55700 60400 5 10 0 0 270 0 1
+symversion=0.1
+T 54900 61200 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 54900 61200 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 54900 61200 5 10 0 0 0 0 1
+vendor=digikey
+T 54900 61200 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 54900 61200 5 10 0 0 0 0 1
+footprint=LED0603P
+T 54500 60900 5 10 1 1 0 0 1
+refdes=LED3
+T 54500 60700 5 10 1 1 0 0 1
+value=RED
+}
+C 56200 61200 1 270 0 led-1.sym
+{
+T 56800 60400 5 10 0 0 270 0 1
+device=LED
+T 57000 60400 5 10 0 0 270 0 1
+symversion=0.1
+T 56200 61200 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 56200 61200 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 56200 61200 5 10 0 0 0 0 1
+vendor=digikey
+T 56200 61200 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 56200 61200 5 10 0 0 0 0 1
+footprint=LED0603P
+T 55800 60900 5 10 1 1 0 0 1
+refdes=LED4
+T 55800 60700 5 10 1 1 0 0 1
+value=RED
+}
+C 57500 61200 1 270 0 led-1.sym
+{
+T 58100 60400 5 10 0 0 270 0 1
+device=LED
+T 58300 60400 5 10 0 0 270 0 1
+symversion=0.1
+T 57500 61200 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 57500 61200 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 57500 61200 5 10 0 0 0 0 1
+vendor=digikey
+T 57500 61200 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 57500 61200 5 10 0 0 0 0 1
+footprint=LED0603P
+T 57100 60900 5 10 1 1 0 0 1
+refdes=LED5
+T 57100 60700 5 10 1 1 0 0 1
+value=RED
+}
+C 63900 53800 1 0 0 vcc-1.sym
+C 64000 52700 1 0 0 gnd-1.sym
+N 52500 60300 58600 60300 4
+N 52500 59000 58500 59000 4
+N 52500 57700 58500 57700 4
+N 52500 56400 58500 56400 4
+N 52500 55100 58500 55100 4
+N 52500 53900 58500 53900 4
+N 67500 57100 66800 57100 4
+{
+T 67000 57100 5 10 1 1 0 0 1
+netname=PD0
+}
+N 65100 59700 67500 59700 4
+N 65400 59300 67500 59300 4
+N 65600 58900 67500 58900 4
+T 61800 56000 9 10 1 0 0 0 1
+Player 2 score LED
+N 67500 58500 66000 58500 4
+{
+T 66900 58500 5 10 1 1 0 0 1
+netname=MOSI
+}
+T 63600 56000 9 10 1 0 0 0 1
+Player 1 score LED
+C 64000 57300 1 0 0 resistor-1.sym
+{
+T 64300 57700 5 10 0 0 0 0 1
+device=RESISTOR
+T 64000 57300 5 10 0 0 270 0 1
+footprint=0603dj
+T 64000 57300 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 64000 57300 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 64000 57300 5 10 0 0 270 0 1
+vendor=digikey
+T 64000 57300 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 64100 57600 5 10 1 1 0 0 1
+refdes=R1
+T 64600 57600 5 10 1 1 0 0 1
+value=1K
+}
+C 63800 57400 1 270 0 led-1.sym
+{
+T 64400 56600 5 10 0 0 270 0 1
+device=LED
+T 64600 56600 5 10 0 0 270 0 1
+symversion=0.1
+T 63800 57400 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 63800 57400 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190TBKT
+T 63800 57400 5 10 0 0 0 0 1
+vendor=digikey
+T 63800 57400 5 10 0 0 0 0 1
+vendor_part_number=160-1646-1-ND
+T 63800 57400 5 10 0 0 0 0 1
+footprint=LED0603P
+T 64400 57000 5 10 1 1 0 0 1
+refdes=LED6
+T 64400 56800 5 10 1 1 0 0 1
+value=BLU
+}
+C 63900 56200 1 0 0 gnd-1.sym
+C 65500 53700 1 270 0 capacitor-1.sym
+{
+T 66200 53500 5 10 0 0 270 0 1
+device=CAPACITOR
+T 65800 53400 5 10 1 1 0 0 1
+refdes=C1
+T 66400 53500 5 10 0 0 270 0 1
+symversion=0.1
+T 65800 52900 5 10 1 1 0 0 1
+value=100nF
+T 65500 53700 5 10 0 0 0 0 1
+manufacturer=Kemet
+T 65500 53700 5 10 0 0 0 0 1
+manufacturer_part_number=C0603C104K5RACTU
+T 65500 53700 5 10 0 0 0 0 1
+vendor=digikey
+T 65500 53700 5 10 0 0 0 0 1
+vendor_part_number=399-5089-1-ND
+T 65500 53700 5 10 0 0 0 0 1
+footprint=0603dj
+}
+C 67400 52100 1 0 0 ATmega16L_TQFP.sym
+{
+T 70400 61000 5 10 1 1 0 6 1
+refdes=U1
+T 67800 61150 5 10 0 0 0 0 1
+device=ATmega16L_TQFP
+T 67800 61350 5 10 0 0 0 0 1
+footprint=TQFP44_10
+}
+C 63700 61100 1 0 0 switch-pb.sym
+{
+T 64100 61350 5 10 1 1 0 0 1
+refdes=S1
+T 64500 61400 5 10 1 1 0 0 1
+value=P2 UP
+T 63700 61100 5 10 0 1 0 0 1
+footprint=SW__Panasonic_EVQP0_Series
+T 63700 61100 5 10 0 1 0 0 1
+manufacturer=Panasonic
+}
+C 63700 60400 1 0 0 switch-pb.sym
+{
+T 64100 60650 5 10 1 1 0 0 1
+refdes=S2
+T 64500 60700 5 10 1 1 0 0 1
+value=P2 DOWN
+T 63700 60400 5 10 0 1 0 0 1
+footprint=SW__Panasonic_EVQP0_Series
+T 63700 60400 5 10 0 1 0 0 1
+manufacturer=Panasonic
+}
+N 67500 60500 65900 60500 4
+N 65900 60500 65900 61100 4
+N 65900 61100 64900 61100 4
+N 64900 60400 65100 60400 4
+N 65100 60400 65100 60100 4
+N 65100 60100 67500 60100 4
+C 63600 60100 1 0 0 gnd-1.sym
+C 63600 60800 1 0 0 gnd-1.sym
+C 63700 59400 1 0 0 switch-pb.sym
+{
+T 64100 59650 5 10 1 1 0 0 1
+refdes=S3
+T 64500 59700 5 10 1 1 0 0 1
+value=P1 UP
+T 63700 59400 5 10 0 1 0 0 1
+footprint=SW__Panasonic_EVQP0_Series
+T 63700 59400 5 10 0 1 0 0 1
+manufacturer=Panasonic
+}
+C 63700 58700 1 0 0 switch-pb.sym
+{
+T 64100 58950 5 10 1 1 0 0 1
+refdes=S4
+T 64500 59000 5 10 1 1 0 0 1
+value=P1 DOWN
+T 63700 58700 5 10 0 1 0 0 1
+footprint=SW__Panasonic_EVQP0_Series
+T 63700 58700 5 10 0 1 0 0 1
+manufacturer=Panasonic
+}
+C 63600 58400 1 0 0 gnd-1.sym
+C 63600 59100 1 0 0 gnd-1.sym
+N 65100 59700 65100 59400 4
+N 65100 59400 64900 59400 4
+N 65400 58700 65400 59300 4
+N 65400 58700 64900 58700 4
+N 66000 58500 66000 57400 4
+N 64900 57400 66000 57400 4
+C 62400 57300 1 0 0 resistor-1.sym
+{
+T 62700 57700 5 10 0 0 0 0 1
+device=RESISTOR
+T 62400 57300 5 10 0 0 270 0 1
+footprint=0603dj
+T 62400 57300 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 62400 57300 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 62400 57300 5 10 0 0 270 0 1
+vendor=digikey
+T 62400 57300 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 62500 57600 5 10 1 1 0 0 1
+refdes=R2
+T 63000 57600 5 10 1 1 0 0 1
+value=1K
+}
+C 62200 57400 1 270 0 led-1.sym
+{
+T 62800 56600 5 10 0 0 270 0 1
+device=LED
+T 63000 56600 5 10 0 0 270 0 1
+symversion=0.1
+T 62200 57400 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 62200 57400 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190TBKT
+T 62200 57400 5 10 0 0 0 0 1
+vendor=digikey
+T 62200 57400 5 10 0 0 0 0 1
+vendor_part_number=160-1646-1-ND
+T 62200 57400 5 10 0 0 0 0 1
+footprint=LED0603P
+T 62800 57000 5 10 1 1 0 0 1
+refdes=LED7
+T 62800 56800 5 10 1 1 0 0 1
+value=BLU
+}
+C 62300 56200 1 0 0 gnd-1.sym
+N 65600 58900 65600 57900 4
+N 65600 57900 63300 57900 4
+N 63300 57900 63300 57400 4
+C 65600 52500 1 0 0 gnd-1.sym
+C 65500 53700 1 0 0 vcc-1.sym
+C 66600 52500 1 0 0 gnd-1.sym
+N 67500 53700 66700 53700 4
+C 70600 52300 1 180 0 resistor-1.sym
+{
+T 70300 51900 5 10 0 0 180 0 1
+device=RESISTOR
+T 70600 52300 5 10 0 0 90 0 1
+footprint=0603dj
+T 70600 52300 5 10 0 0 90 0 1
+manufacturer=Rohm
+T 70600 52300 5 10 0 0 90 0 1
+manufacturer_part_number=MCR03ERTJ103
+T 70600 52300 5 10 0 0 90 0 1
+vendor=digikey
+T 70600 52300 5 10 0 0 90 0 1
+vendor_part_number=RHM10KCGCT-ND
+T 69800 51900 5 10 1 1 0 0 1
+refdes=R3
+T 70200 51900 5 10 1 1 0 0 1
+value=10K
+}
+C 70400 52200 1 0 0 vcc-1.sym
+C 52300 59900 1 270 0 led-1.sym
+{
+T 52900 59100 5 10 0 0 270 0 1
+device=LED
+T 53100 59100 5 10 0 0 270 0 1
+symversion=0.1
+T 52300 59900 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 52300 59900 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 52300 59900 5 10 0 0 0 0 1
+vendor=digikey
+T 52300 59900 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 52300 59900 5 10 0 0 0 0 1
+footprint=LED0603P
+T 51900 59600 5 10 1 1 0 0 1
+refdes=LED8
+T 51900 59400 5 10 1 1 0 0 1
+value=RED
+}
+C 53600 59900 1 270 0 led-1.sym
+{
+T 54200 59100 5 10 0 0 270 0 1
+device=LED
+T 54400 59100 5 10 0 0 270 0 1
+symversion=0.1
+T 53600 59900 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 53600 59900 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 53600 59900 5 10 0 0 0 0 1
+vendor=digikey
+T 53600 59900 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 53600 59900 5 10 0 0 0 0 1
+footprint=LED0603P
+T 53200 59600 5 10 1 1 0 0 1
+refdes=LED9
+T 53200 59400 5 10 1 1 0 0 1
+value=RED
+}
+C 54900 59900 1 270 0 led-1.sym
+{
+T 55500 59100 5 10 0 0 270 0 1
+device=LED
+T 55700 59100 5 10 0 0 270 0 1
+symversion=0.1
+T 54900 59900 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 54900 59900 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 54900 59900 5 10 0 0 0 0 1
+vendor=digikey
+T 54900 59900 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 54900 59900 5 10 0 0 0 0 1
+footprint=LED0603P
+T 54500 59600 5 10 1 1 0 0 1
+refdes=LED10
+T 54500 59400 5 10 1 1 0 0 1
+value=RED
+}
+C 56200 59900 1 270 0 led-1.sym
+{
+T 56800 59100 5 10 0 0 270 0 1
+device=LED
+T 57000 59100 5 10 0 0 270 0 1
+symversion=0.1
+T 56200 59900 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 56200 59900 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 56200 59900 5 10 0 0 0 0 1
+vendor=digikey
+T 56200 59900 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 56200 59900 5 10 0 0 0 0 1
+footprint=LED0603P
+T 55800 59600 5 10 1 1 0 0 1
+refdes=LED11
+T 55800 59400 5 10 1 1 0 0 1
+value=RED
+}
+C 57500 59900 1 270 0 led-1.sym
+{
+T 58100 59100 5 10 0 0 270 0 1
+device=LED
+T 58300 59100 5 10 0 0 270 0 1
+symversion=0.1
+T 57500 59900 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 57500 59900 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 57500 59900 5 10 0 0 0 0 1
+vendor=digikey
+T 57500 59900 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 57500 59900 5 10 0 0 0 0 1
+footprint=LED0603P
+T 57100 59600 5 10 1 1 0 0 1
+refdes=LED12
+T 57100 59400 5 10 1 1 0 0 1
+value=RED
+}
+C 52300 58600 1 270 0 led-1.sym
+{
+T 52900 57800 5 10 0 0 270 0 1
+device=LED
+T 53100 57800 5 10 0 0 270 0 1
+symversion=0.1
+T 52300 58600 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 52300 58600 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 52300 58600 5 10 0 0 0 0 1
+vendor=digikey
+T 52300 58600 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 52300 58600 5 10 0 0 0 0 1
+footprint=LED0603P
+T 51900 58300 5 10 1 1 0 0 1
+refdes=LED13
+T 51900 58100 5 10 1 1 0 0 1
+value=RED
+}
+C 53600 58600 1 270 0 led-1.sym
+{
+T 54200 57800 5 10 0 0 270 0 1
+device=LED
+T 54400 57800 5 10 0 0 270 0 1
+symversion=0.1
+T 53600 58600 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 53600 58600 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 53600 58600 5 10 0 0 0 0 1
+vendor=digikey
+T 53600 58600 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 53600 58600 5 10 0 0 0 0 1
+footprint=LED0603P
+T 53200 58300 5 10 1 1 0 0 1
+refdes=LED14
+T 53200 58100 5 10 1 1 0 0 1
+value=RED
+}
+C 54900 58600 1 270 0 led-1.sym
+{
+T 55500 57800 5 10 0 0 270 0 1
+device=LED
+T 55700 57800 5 10 0 0 270 0 1
+symversion=0.1
+T 54900 58600 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 54900 58600 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 54900 58600 5 10 0 0 0 0 1
+vendor=digikey
+T 54900 58600 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 54900 58600 5 10 0 0 0 0 1
+footprint=LED0603P
+T 54500 58300 5 10 1 1 0 0 1
+refdes=LED15
+T 54500 58100 5 10 1 1 0 0 1
+value=RED
+}
+C 56200 58600 1 270 0 led-1.sym
+{
+T 56800 57800 5 10 0 0 270 0 1
+device=LED
+T 57000 57800 5 10 0 0 270 0 1
+symversion=0.1
+T 56200 58600 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 56200 58600 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 56200 58600 5 10 0 0 0 0 1
+vendor=digikey
+T 56200 58600 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 56200 58600 5 10 0 0 0 0 1
+footprint=LED0603P
+T 55800 58300 5 10 1 1 0 0 1
+refdes=LED16
+T 55800 58100 5 10 1 1 0 0 1
+value=RED
+}
+C 57500 58600 1 270 0 led-1.sym
+{
+T 58100 57800 5 10 0 0 270 0 1
+device=LED
+T 58300 57800 5 10 0 0 270 0 1
+symversion=0.1
+T 57500 58600 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 57500 58600 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 57500 58600 5 10 0 0 0 0 1
+vendor=digikey
+T 57500 58600 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 57500 58600 5 10 0 0 0 0 1
+footprint=LED0603P
+T 57100 58300 5 10 1 1 0 0 1
+refdes=LED17
+T 57100 58100 5 10 1 1 0 0 1
+value=RED
+}
+C 52300 57300 1 270 0 led-1.sym
+{
+T 52900 56500 5 10 0 0 270 0 1
+device=LED
+T 53100 56500 5 10 0 0 270 0 1
+symversion=0.1
+T 52300 57300 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 52300 57300 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 52300 57300 5 10 0 0 0 0 1
+vendor=digikey
+T 52300 57300 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 52300 57300 5 10 0 0 0 0 1
+footprint=LED0603P
+T 51900 57000 5 10 1 1 0 0 1
+refdes=LED18
+T 51900 56800 5 10 1 1 0 0 1
+value=RED
+}
+C 53600 57300 1 270 0 led-1.sym
+{
+T 54200 56500 5 10 0 0 270 0 1
+device=LED
+T 54400 56500 5 10 0 0 270 0 1
+symversion=0.1
+T 53600 57300 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 53600 57300 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 53600 57300 5 10 0 0 0 0 1
+vendor=digikey
+T 53600 57300 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 53600 57300 5 10 0 0 0 0 1
+footprint=LED0603P
+T 53200 57000 5 10 1 1 0 0 1
+refdes=LED19
+T 53200 56800 5 10 1 1 0 0 1
+value=RED
+}
+C 54900 57300 1 270 0 led-1.sym
+{
+T 55500 56500 5 10 0 0 270 0 1
+device=LED
+T 55700 56500 5 10 0 0 270 0 1
+symversion=0.1
+T 54900 57300 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 54900 57300 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 54900 57300 5 10 0 0 0 0 1
+vendor=digikey
+T 54900 57300 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 54900 57300 5 10 0 0 0 0 1
+footprint=LED0603P
+T 54500 57000 5 10 1 1 0 0 1
+refdes=LED20
+T 54500 56800 5 10 1 1 0 0 1
+value=RED
+}
+C 56200 57300 1 270 0 led-1.sym
+{
+T 56800 56500 5 10 0 0 270 0 1
+device=LED
+T 57000 56500 5 10 0 0 270 0 1
+symversion=0.1
+T 56200 57300 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 56200 57300 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 56200 57300 5 10 0 0 0 0 1
+vendor=digikey
+T 56200 57300 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 56200 57300 5 10 0 0 0 0 1
+footprint=LED0603P
+T 55800 57000 5 10 1 1 0 0 1
+refdes=LED21
+T 55800 56800 5 10 1 1 0 0 1
+value=RED
+}
+C 57500 57300 1 270 0 led-1.sym
+{
+T 58100 56500 5 10 0 0 270 0 1
+device=LED
+T 58300 56500 5 10 0 0 270 0 1
+symversion=0.1
+T 57500 57300 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 57500 57300 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 57500 57300 5 10 0 0 0 0 1
+vendor=digikey
+T 57500 57300 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 57500 57300 5 10 0 0 0 0 1
+footprint=LED0603P
+T 57100 57000 5 10 1 1 0 0 1
+refdes=LED22
+T 57100 56800 5 10 1 1 0 0 1
+value=RED
+}
+C 52300 56000 1 270 0 led-1.sym
+{
+T 52900 55200 5 10 0 0 270 0 1
+device=LED
+T 53100 55200 5 10 0 0 270 0 1
+symversion=0.1
+T 52300 56000 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 52300 56000 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 52300 56000 5 10 0 0 0 0 1
+vendor=digikey
+T 52300 56000 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 52300 56000 5 10 0 0 0 0 1
+footprint=LED0603P
+T 51900 55700 5 10 1 1 0 0 1
+refdes=LED23
+T 51900 55500 5 10 1 1 0 0 1
+value=RED
+}
+C 53600 56000 1 270 0 led-1.sym
+{
+T 54200 55200 5 10 0 0 270 0 1
+device=LED
+T 54400 55200 5 10 0 0 270 0 1
+symversion=0.1
+T 53600 56000 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 53600 56000 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 53600 56000 5 10 0 0 0 0 1
+vendor=digikey
+T 53600 56000 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 53600 56000 5 10 0 0 0 0 1
+footprint=LED0603P
+T 53200 55700 5 10 1 1 0 0 1
+refdes=LED24
+T 53200 55500 5 10 1 1 0 0 1
+value=RED
+}
+C 54900 56000 1 270 0 led-1.sym
+{
+T 55500 55200 5 10 0 0 270 0 1
+device=LED
+T 55700 55200 5 10 0 0 270 0 1
+symversion=0.1
+T 54900 56000 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 54900 56000 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 54900 56000 5 10 0 0 0 0 1
+vendor=digikey
+T 54900 56000 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 54900 56000 5 10 0 0 0 0 1
+footprint=LED0603P
+T 54500 55700 5 10 1 1 0 0 1
+refdes=LED25
+T 54500 55500 5 10 1 1 0 0 1
+value=RED
+}
+C 56200 56000 1 270 0 led-1.sym
+{
+T 56800 55200 5 10 0 0 270 0 1
+device=LED
+T 57000 55200 5 10 0 0 270 0 1
+symversion=0.1
+T 56200 56000 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 56200 56000 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 56200 56000 5 10 0 0 0 0 1
+vendor=digikey
+T 56200 56000 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 56200 56000 5 10 0 0 0 0 1
+footprint=LED0603P
+T 55800 55700 5 10 1 1 0 0 1
+refdes=LED26
+T 55800 55500 5 10 1 1 0 0 1
+value=RED
+}
+C 57500 56000 1 270 0 led-1.sym
+{
+T 58100 55200 5 10 0 0 270 0 1
+device=LED
+T 58300 55200 5 10 0 0 270 0 1
+symversion=0.1
+T 57500 56000 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 57500 56000 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 57500 56000 5 10 0 0 0 0 1
+vendor=digikey
+T 57500 56000 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 57500 56000 5 10 0 0 0 0 1
+footprint=LED0603P
+T 57100 55700 5 10 1 1 0 0 1
+refdes=LED27
+T 57100 55500 5 10 1 1 0 0 1
+value=RED
+}
+C 52300 54800 1 270 0 led-1.sym
+{
+T 52900 54000 5 10 0 0 270 0 1
+device=LED
+T 53100 54000 5 10 0 0 270 0 1
+symversion=0.1
+T 52300 54800 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 52300 54800 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 52300 54800 5 10 0 0 0 0 1
+vendor=digikey
+T 52300 54800 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 52300 54800 5 10 0 0 0 0 1
+footprint=LED0603P
+T 51900 54500 5 10 1 1 0 0 1
+refdes=LED28
+T 51900 54300 5 10 1 1 0 0 1
+value=RED
+}
+C 53600 54800 1 270 0 led-1.sym
+{
+T 54200 54000 5 10 0 0 270 0 1
+device=LED
+T 54400 54000 5 10 0 0 270 0 1
+symversion=0.1
+T 53600 54800 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 53600 54800 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 53600 54800 5 10 0 0 0 0 1
+vendor=digikey
+T 53600 54800 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 53600 54800 5 10 0 0 0 0 1
+footprint=LED0603P
+T 53200 54500 5 10 1 1 0 0 1
+refdes=LED29
+T 53200 54300 5 10 1 1 0 0 1
+value=RED
+}
+C 54900 54800 1 270 0 led-1.sym
+{
+T 55500 54000 5 10 0 0 270 0 1
+device=LED
+T 55700 54000 5 10 0 0 270 0 1
+symversion=0.1
+T 54900 54800 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 54900 54800 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 54900 54800 5 10 0 0 0 0 1
+vendor=digikey
+T 54900 54800 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 54900 54800 5 10 0 0 0 0 1
+footprint=LED0603P
+T 54500 54500 5 10 1 1 0 0 1
+refdes=LED30
+T 54500 54300 5 10 1 1 0 0 1
+value=RED
+}
+C 56200 54800 1 270 0 led-1.sym
+{
+T 56800 54000 5 10 0 0 270 0 1
+device=LED
+T 57000 54000 5 10 0 0 270 0 1
+symversion=0.1
+T 56200 54800 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 56200 54800 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 56200 54800 5 10 0 0 0 0 1
+vendor=digikey
+T 56200 54800 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 56200 54800 5 10 0 0 0 0 1
+footprint=LED0603P
+T 55800 54500 5 10 1 1 0 0 1
+refdes=LED31
+T 55800 54300 5 10 1 1 0 0 1
+value=RED
+}
+C 57500 54800 1 270 0 led-1.sym
+{
+T 58100 54000 5 10 0 0 270 0 1
+device=LED
+T 58300 54000 5 10 0 0 270 0 1
+symversion=0.1
+T 57500 54800 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 57500 54800 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 57500 54800 5 10 0 0 0 0 1
+vendor=digikey
+T 57500 54800 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 57500 54800 5 10 0 0 0 0 1
+footprint=LED0603P
+T 57100 54400 5 10 1 1 0 0 1
+refdes=LED32
+T 57100 54200 5 10 1 1 0 0 1
+value=RED
+}
+C 58600 60200 1 0 0 resistor-1.sym
+{
+T 58900 60600 5 10 0 0 0 0 1
+device=RESISTOR
+T 58600 60200 5 10 0 0 270 0 1
+footprint=0603dj
+T 58600 60200 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 58600 60200 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 58600 60200 5 10 0 0 270 0 1
+vendor=digikey
+T 58600 60200 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 58800 60500 5 10 1 1 0 0 1
+refdes=R4
+T 59200 60500 5 10 1 1 0 0 1
+value=1K
+}
+C 58500 58900 1 0 0 resistor-1.sym
+{
+T 58800 59300 5 10 0 0 0 0 1
+device=RESISTOR
+T 58500 58900 5 10 0 0 270 0 1
+footprint=0603dj
+T 58500 58900 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 58500 58900 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 58500 58900 5 10 0 0 270 0 1
+vendor=digikey
+T 58500 58900 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 58700 59200 5 10 1 1 0 0 1
+refdes=R5
+T 59100 59200 5 10 1 1 0 0 1
+value=1K
+}
+C 58500 57600 1 0 0 resistor-1.sym
+{
+T 58800 58000 5 10 0 0 0 0 1
+device=RESISTOR
+T 58500 57600 5 10 0 0 270 0 1
+footprint=0603dj
+T 58500 57600 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 58500 57600 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 58500 57600 5 10 0 0 270 0 1
+vendor=digikey
+T 58500 57600 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 58700 57900 5 10 1 1 0 0 1
+refdes=R6
+T 59100 57900 5 10 1 1 0 0 1
+value=1K
+}
+C 58500 56300 1 0 0 resistor-1.sym
+{
+T 58800 56700 5 10 0 0 0 0 1
+device=RESISTOR
+T 58500 56300 5 10 0 0 270 0 1
+footprint=0603dj
+T 58500 56300 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 58500 56300 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 58500 56300 5 10 0 0 270 0 1
+vendor=digikey
+T 58500 56300 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 58700 56600 5 10 1 1 0 0 1
+refdes=R7
+T 59100 56600 5 10 1 1 0 0 1
+value=1K
+}
+C 58500 55000 1 0 0 resistor-1.sym
+{
+T 58800 55400 5 10 0 0 0 0 1
+device=RESISTOR
+T 58500 55000 5 10 0 0 270 0 1
+footprint=0603dj
+T 58500 55000 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 58500 55000 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 58500 55000 5 10 0 0 270 0 1
+vendor=digikey
+T 58500 55000 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 58700 55300 5 10 1 1 0 0 1
+refdes=R8
+T 59100 55300 5 10 1 1 0 0 1
+value=1K
+}
+C 58500 53800 1 0 0 resistor-1.sym
+{
+T 58800 54200 5 10 0 0 0 0 1
+device=RESISTOR
+T 58500 53800 5 10 0 0 270 0 1
+footprint=0603dj
+T 58500 53800 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 58500 53800 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 58500 53800 5 10 0 0 270 0 1
+vendor=digikey
+T 58500 53800 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 58700 54100 5 10 1 1 0 0 1
+refdes=R9
+T 59100 54100 5 10 1 1 0 0 1
+value=1K
+}
+N 67500 56700 66800 56700 4
+{
+T 67000 56700 5 10 1 1 0 0 1
+netname=PD1
+}
+N 67500 56300 66800 56300 4
+{
+T 67000 56300 5 10 1 1 0 0 1
+netname=PD2
+}
+N 67500 55900 66800 55900 4
+{
+T 67000 55900 5 10 1 1 0 0 1
+netname=PD3
+}
+N 67500 55500 66800 55500 4
+{
+T 67000 55500 5 10 1 1 0 0 1
+netname=PD4
+}
+N 71400 60500 70700 60500 4
+{
+T 70900 60500 5 10 1 1 0 0 1
+netname=PA0
+}
+N 71400 60100 70700 60100 4
+{
+T 70900 60100 5 10 1 1 0 0 1
+netname=PA1
+}
+N 71400 59700 70700 59700 4
+{
+T 70900 59700 5 10 1 1 0 0 1
+netname=PA2
+}
+N 71400 59300 70700 59300 4
+{
+T 70900 59300 5 10 1 1 0 0 1
+netname=PA3
+}
+N 71400 58900 70700 58900 4
+{
+T 70900 58900 5 10 1 1 0 0 1
+netname=PA4
+}
+N 71400 58500 70700 58500 4
+{
+T 70900 58500 5 10 1 1 0 0 1
+netname=PA5
+}
+N 71400 58100 70700 58100 4
+{
+T 70900 58100 5 10 1 1 0 0 1
+netname=PA6
+}
+N 60100 52600 59400 52600 4
+{
+T 59600 52600 5 10 1 1 0 0 1
+netname=PA0
+}
+N 60100 53900 59400 53900 4
+{
+T 59600 53900 5 10 1 1 0 0 1
+netname=PA1
+}
+N 60100 55100 59400 55100 4
+{
+T 59600 55100 5 10 1 1 0 0 1
+netname=PA2
+}
+N 60100 56400 59400 56400 4
+{
+T 59600 56400 5 10 1 1 0 0 1
+netname=PA3
+}
+N 60100 57700 59400 57700 4
+{
+T 59600 57700 5 10 1 1 0 0 1
+netname=PA4
+}
+N 60100 59000 59400 59000 4
+{
+T 59600 59000 5 10 1 1 0 0 1
+netname=PA5
+}
+N 52500 52600 58500 52600 4
+C 52300 53500 1 270 0 led-1.sym
+{
+T 52900 52700 5 10 0 0 270 0 1
+device=LED
+T 53100 52700 5 10 0 0 270 0 1
+symversion=0.1
+T 52300 53500 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 52300 53500 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 52300 53500 5 10 0 0 0 0 1
+vendor=digikey
+T 52300 53500 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 52300 53500 5 10 0 0 0 0 1
+footprint=LED0603P
+T 51900 53200 5 10 1 1 0 0 1
+refdes=LED33
+T 51900 53000 5 10 1 1 0 0 1
+value=RED
+}
+C 53600 53500 1 270 0 led-1.sym
+{
+T 54200 52700 5 10 0 0 270 0 1
+device=LED
+T 54400 52700 5 10 0 0 270 0 1
+symversion=0.1
+T 53600 53500 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 53600 53500 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 53600 53500 5 10 0 0 0 0 1
+vendor=digikey
+T 53600 53500 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 53600 53500 5 10 0 0 0 0 1
+footprint=LED0603P
+T 53200 53200 5 10 1 1 0 0 1
+refdes=LED34
+T 53200 53000 5 10 1 1 0 0 1
+value=RED
+}
+C 54900 53500 1 270 0 led-1.sym
+{
+T 55500 52700 5 10 0 0 270 0 1
+device=LED
+T 55700 52700 5 10 0 0 270 0 1
+symversion=0.1
+T 54900 53500 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 54900 53500 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 54900 53500 5 10 0 0 0 0 1
+vendor=digikey
+T 54900 53500 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 54900 53500 5 10 0 0 0 0 1
+footprint=LED0603P
+T 54500 53200 5 10 1 1 0 0 1
+refdes=LED35
+T 54500 53000 5 10 1 1 0 0 1
+value=RED
+}
+C 56200 53500 1 270 0 led-1.sym
+{
+T 56800 52700 5 10 0 0 270 0 1
+device=LED
+T 57000 52700 5 10 0 0 270 0 1
+symversion=0.1
+T 56200 53500 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 56200 53500 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 56200 53500 5 10 0 0 0 0 1
+vendor=digikey
+T 56200 53500 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 56200 53500 5 10 0 0 0 0 1
+footprint=LED0603P
+T 55800 53200 5 10 1 1 0 0 1
+refdes=LED36
+T 55800 53000 5 10 1 1 0 0 1
+value=RED
+}
+C 57500 53500 1 270 0 led-1.sym
+{
+T 58100 52700 5 10 0 0 270 0 1
+device=LED
+T 58300 52700 5 10 0 0 270 0 1
+symversion=0.1
+T 57500 53500 5 10 0 0 0 0 1
+manufacturer=Lite-On Inc
+T 57500 53500 5 10 0 0 0 0 1
+manufacturer_part_number=LTST-C190KRKT
+T 57500 53500 5 10 0 0 0 0 1
+vendor=digikey
+T 57500 53500 5 10 0 0 0 0 1
+vendor_part_number=160-1436-1-ND
+T 57500 53500 5 10 0 0 0 0 1
+footprint=LED0603P
+T 57100 53100 5 10 1 1 0 0 1
+refdes=LED37
+T 57100 52900 5 10 1 1 0 0 1
+value=RED
+}
+C 58500 52500 1 0 0 resistor-1.sym
+{
+T 58800 52900 5 10 0 0 0 0 1
+device=RESISTOR
+T 58500 52500 5 10 0 0 270 0 1
+footprint=0603dj
+T 58500 52500 5 10 0 0 270 0 1
+manufacturer=Rohm
+T 58500 52500 5 10 0 0 270 0 1
+manufacturer_part_number=MCR03ERTJ102
+T 58500 52500 5 10 0 0 270 0 1
+vendor=digikey
+T 58500 52500 5 10 0 0 270 0 1
+vendor_part_number=RHM1.0KCGCT-ND
+T 58700 52800 5 10 1 1 0 0 1
+refdes=R10
+T 59100 52800 5 10 1 1 0 0 1
+value=1K
+}
+C 66500 53700 1 270 0 capacitor-1.sym
+{
+T 67200 53500 5 10 0 0 270 0 1
+device=CAPACITOR
+T 66800 53400 5 10 1 1 0 0 1
+refdes=C2
+T 67400 53500 5 10 0 0 270 0 1
+symversion=0.1
+T 66800 52900 5 10 1 1 0 0 1
+value=100nF
+T 66500 53700 5 10 0 0 0 0 1
+manufacturer=Kemet
+T 66500 53700 5 10 0 0 0 0 1
+manufacturer_part_number=C0603C104K5RACTU
+T 66500 53700 5 10 0 0 0 0 1
+vendor=digikey
+T 66500 53700 5 10 0 0 0 0 1
+vendor_part_number=399-5089-1-ND
+T 66500 53700 5 10 0 0 0 0 1
+footprint=0603dj
+}
+C 49600 48400 0 0 0 title-bordered-A2.sym
+T 65700 49300 9 10 1 0 0 0 1
+HAX Pong
+T 69600 48700 9 10 1 0 0 0 1
+Atommann
+T 69600 49000 9 10 1 0 0 0 1
+Apr. 30, 2014
+N 60200 60300 59500 60300 4
+{
+T 59700 60300 5 10 1 1 0 0 1
+netname=PA6
+}
+N 52500 61200 52500 61600 4
+{
+T 52300 61700 5 10 1 1 0 0 1
+netname=PD0
+}
+N 53800 61200 53800 61600 4
+{
+T 53600 61700 5 10 1 1 0 0 1
+netname=PD1
+}
+N 55100 61200 55100 61600 4
+{
+T 54900 61700 5 10 1 1 0 0 1
+netname=PD2
+}
+N 56400 61200 56400 61600 4
+{
+T 56200 61700 5 10 1 1 0 0 1
+netname=PD3
+}
+N 57700 61200 57700 61600 4
+{
+T 57500 61700 5 10 1 1 0 0 1
+netname=PD4
+}
+N 52500 61200 51600 61200 4
+N 51600 61200 51600 53500 4
+N 51600 53500 52500 53500 4
+N 51600 54800 52500 54800 4
+N 51600 56000 52500 56000 4
+N 51600 57300 52500 57300 4
+N 51600 58600 52500 58600 4
+N 51600 59900 52500 59900 4
+N 53800 61200 53100 61200 4
+N 53100 61200 53100 53500 4
+N 53100 53500 53800 53500 4
+N 53100 54800 53800 54800 4
+N 53100 56000 53800 56000 4
+N 53100 57300 53800 57300 4
+N 53100 58600 53800 58600 4
+N 53100 59900 53800 59900 4
+N 55100 61200 54400 61200 4
+N 54400 61200 54400 53500 4
+N 54400 53500 55100 53500 4
+N 54400 54800 55100 54800 4
+N 54400 56000 55100 56000 4
+N 54400 57300 55100 57300 4
+N 54400 58600 55100 58600 4
+N 54400 59900 55100 59900 4
+N 56400 61200 55700 61200 4
+N 55700 61200 55700 53500 4
+N 55700 53500 56400 53500 4
+N 55700 54800 56400 54800 4
+N 55700 56000 56400 56000 4
+N 55700 57300 56400 57300 4
+N 55700 58600 56400 58600 4
+N 55700 59900 56400 59900 4
+N 57700 61200 57000 61200 4
+N 57000 61200 57000 53500 4
+N 57000 53500 57700 53500 4
+N 57000 54800 57700 54800 4
+N 57000 56000 57700 56000 4
+N 57000 57300 57700 57300 4
+N 57000 58600 57700 58600 4
+N 57000 59900 57700 59900 4
+C 65500 55500 1 270 0 battery-1.sym
+{
+T 66400 55200 5 10 0 0 270 0 1
+device=BATTERY
+T 66000 55200 5 10 1 1 0 0 1
+refdes=B1
+T 66800 55200 5 10 0 0 270 0 1
+symversion=0.1
+T 65500 55500 5 10 0 1 0 0 1
+footprint=CON_BAT__Keystone_3008
+T 65500 55500 5 10 0 1 0 0 1
+manufacturer=Keystone
+T 65500 55500 5 10 0 1 0 0 1
+manufacturer_part_number=3009
+T 65500 55500 5 10 0 1 0 0 1
+vendor=digikey
+T 65500 55500 5 10 0 1 0 0 1
+vendor_part_number=3009K-ND
+}
+C 65500 55500 1 0 0 vcc-1.sym
+C 65600 54500 1 0 0 gnd-1.sym
+N 67500 58100 66800 58100 4
+{
+T 66900 58100 5 10 1 1 0 0 1
+netname=MISO
+}
+N 67500 57700 66800 57700 4
+{
+T 66900 57700 5 10 1 1 0 0 1
+netname=SCK
+}
+N 69700 52200 69700 51400 4
+{
+T 69700 51600 5 10 1 1 0 0 1
+netname=RST
+}
+C 66500 53700 1 0 0 vcc-1.sym
+C 64400 54800 1 0 0 hole-1.sym
+{
+T 64400 54800 5 10 0 1 0 0 1
+device=HOLE
+T 64600 55400 5 10 1 1 0 4 1
+refdes=H1
+T 64400 54800 5 10 0 0 0 0 1
+footprint=mounting-hole-3mm
+}
+C 70700 57200 1 270 0 testpt-1.sym
+{
+T 71200 57000 5 10 1 1 0 0 1
+refdes=TP1
+T 71600 56800 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 56800 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 56800 1 270 0 testpt-1.sym
+{
+T 71200 56600 5 10 1 1 0 0 1
+refdes=TP2
+T 71600 56400 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 56400 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 56400 1 270 0 testpt-1.sym
+{
+T 71200 56200 5 10 1 1 0 0 1
+refdes=TP3
+T 71600 56000 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 56000 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 56000 1 270 0 testpt-1.sym
+{
+T 71100 55800 5 10 1 1 0 0 1
+refdes=TP4
+T 71600 55600 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 55600 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 55600 1 270 0 testpt-1.sym
+{
+T 71100 55400 5 10 1 1 0 0 1
+refdes=TP5
+T 71600 55200 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 55200 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 55200 1 270 0 testpt-1.sym
+{
+T 71100 55000 5 10 1 1 0 0 1
+refdes=TP6
+T 71600 54800 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 54800 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 54800 1 270 0 testpt-1.sym
+{
+T 71100 54600 5 10 1 1 0 0 1
+refdes=TP7
+T 71600 54400 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 54400 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 54400 1 270 0 testpt-1.sym
+{
+T 71100 54200 5 10 1 1 0 0 1
+refdes=TP8
+T 71600 54000 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 54000 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 70700 57800 1 270 0 testpt-1.sym
+{
+T 71200 57600 5 10 1 1 0 0 1
+refdes=TP9
+T 71600 57400 5 10 0 0 270 0 1
+device=TESTPOINT
+T 71400 57400 5 10 0 0 270 0 1
+footprint=testpad_1mm
+}
+C 67500 55000 1 90 0 testpt-1.sym
+{
+T 67100 55200 5 10 1 1 180 0 1
+refdes=TP10
+T 66600 55400 5 10 0 0 90 0 1
+device=TESTPOINT
+T 66800 55400 5 10 0 0 90 0 1
+footprint=testpad_1mm
+}
+C 67500 54600 1 90 0 testpt-1.sym
+{
+T 67100 54800 5 10 1 1 180 0 1
+refdes=TP11
+T 66600 55000 5 10 0 0 90 0 1
+device=TESTPOINT
+T 66800 55000 5 10 0 0 90 0 1
+footprint=testpad_1mm
+}
+C 67500 54200 1 90 0 testpt-1.sym
+{
+T 67100 54400 5 10 1 1 180 0 1
+refdes=TP12
+T 66600 54600 5 10 0 0 90 0 1
+device=TESTPOINT
+T 66800 54600 5 10 0 0 90 0 1
+footprint=testpad_1mm
+}
+T 65200 54300 9 10 1 0 0 0 1
+CR2450 clip
+T 58800 60800 9 10 1 0 0 0 2
+330 Ohm to 1K
+depends on VCC and LED color
